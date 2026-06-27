@@ -1,0 +1,48 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  - package-ecosystem: "" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly"
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "com.github.creepyalissa-coder/Digi-etebar-platform",
+  "documentNamespace": "https://spdx.org/spdxdocs/protobom/5872dd9e-9eb5-4552-bedf-b9d6fbd1992f",
+  "creationInfo": {
+    "creators": [
+      "Tool: protobom-v0.0.0-20260626120405-6e10f3a71ace+dirty",
+      "Tool: GitHub.com-Dependency-Graph"
+    ],
+    "created": "2026-06-27T04:06:22Z"
+  },
+  "packages": [
+    {
+      "name": "com.github.creepyalissa-coder/Digi-etebar-platform",
+      "SPDXID": "SPDXRef-github-creepyalissa-coder-Digi-etebar-platform-Read.me-de31f0",
+      "versionInfo": "Read.me",
+      "downloadLocation": "git+https://github.com/creepyalissa-coder/Digi-etebar-platform",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/creepyalissa-coder/Digi-etebar-platform@Read.me"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-github-creepyalissa-coder-Digi-etebar-platform-Read.me-de31f0",
+      "relationshipType": "DESCRIBES"
+    }
+  ]
+}
