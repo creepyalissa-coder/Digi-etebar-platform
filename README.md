@@ -94,3 +94,4 @@ DigiEtebar-MVP-Final/
 │   └── NDA_Template.docx
 │
 └── .gitignore
+Copyright_Notice.txt
